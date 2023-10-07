@@ -1,0 +1,48 @@
+,Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+0,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,UFS (f-regression),40,161125.009,0.821,0.831
+1,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,UFS (f-regression),40,161576.602,0.84,0.83
+2,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,Remove high corr,42,162071.352,0.82,0.829
+3,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,Remove high corr,42,164878.815,0.815,0.823
+4,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,-,47,169593.875,0.821,0.813
+5,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,Remove high corr,42,171488.021,0.806,0.809
+6,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,UFS (f-regression),35,172980.394,0.81,0.805
+7,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,-,47,174976.082,0.792,0.801
+8,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,UFS (f-regression),40,176072.39,0.789,0.798
+9,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,-,47,178176.107,0.801,0.793
+10,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",-,Remove high corr,42,178176.107,0.801,0.793
+11,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,UFS (f-regression),30,179575.213,0.777,0.79
+12,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,UFS (f-regression),25,180387.099,0.81,0.788
+13,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,UFS (f-regression),35,180596.913,0.793,0.788
+14,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,UFS (f-regression),30,186208.672,0.779,0.774
+15,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,UFS (f-regression),25,186291.023,0.772,0.774
+16,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,UFS (f-regression),30,186443.514,0.785,0.774
+17,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,UFS (f-regression),25,187071.398,0.761,0.772
+18,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,Variance threshold,26,191583.789,0.744,0.761
+19,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,Variance threshold,30,191591.14,0.743,0.761
+20,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,UFS (f-regression),20,192347.792,0.759,0.759
+21,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,Variance threshold,24,193811.666,0.742,0.756
+22,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,UFS (f-regression),20,194533.232,0.747,0.754
+23,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,Variance threshold,26,194589.275,0.74,0.754
+24,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,Variance threshold,30,196212.473,0.738,0.749
+25,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,Variance threshold,24,197017.672,0.737,0.747
+26,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,Variance threshold,19,199087.715,0.726,0.742
+27,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,Variance threshold,24,199246.38,0.72,0.742
+28,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,Variance threshold,19,200024.699,0.73,0.74
+29,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,Variance threshold,30,200405.347,0.719,0.739
+30,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,Variance threshold,18,201181.044,0.721,0.737
+31,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,Variance threshold,16,201410.124,0.702,0.736
+32,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,Variance threshold,18,201733.667,0.728,0.735
+33,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,Variance threshold,26,202515.152,0.715,0.733
+34,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,UFS (f-regression),15,203053.206,0.74,0.732
+35,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,UFS (f-regression),15,204520.351,0.724,0.728
+36,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,Variance threshold,19,207669.959,0.696,0.719
+37,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,UFS (f-regression),10,207820.565,0.716,0.719
+38,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,UFS (f-regression),10,208797.697,0.723,0.716
+39,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,UFS (f-regression),10,209567.765,0.724,0.714
+40,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,UFS (f-regression),20,209834.689,0.721,0.713
+41,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,Variance threshold,16,210480.76,0.699,0.712
+42,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",RobustScaler,UFS (f-regression),15,213820.435,0.709,0.702
+43,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,Variance threshold,16,215122.852,0.67,0.699
+44,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,Variance threshold,18,236502.733,0.64,0.636
+45,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",-,-,47,261012.962,0.536,0.557
+46,MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",MinMaxScaler,UFS (f-regression),35,663323.227,-2.115,-1.864

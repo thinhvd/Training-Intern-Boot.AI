@@ -1,0 +1,96 @@
+,Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+89,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,UFS (f-regression),40,133571.629,0.971,0.884
+47,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",-,-,48,133650.629,0.973,0.884
+94,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",-,RFECV,41,134611.613,0.973,0.882
+88,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,UFS (f-regression),40,136655.144,0.972,0.878
+49,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,-,48,136760.923,0.972,0.878
+90,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,UFS (f-regression),40,137062.994,0.971,0.878
+48,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,-,48,137066.735,0.972,0.878
+51,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",-,Remove high corr,43,137114.722,0.973,0.878
+50,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,-,48,137114.722,0.973,0.878
+41,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,UFS (f-regression),40,137129.96,0.968,0.878
+43,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,UFS (f-regression),40,138630.67,0.968,0.875
+42,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,UFS (f-regression),40,138890.02,0.969,0.874
+1,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,-,48,138998.508,0.97,0.874
+4,AdaBoostRegressor,"n_estimators=500, learning_rate=1",-,Remove high corr,43,139129.217,0.97,0.874
+3,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,-,48,139129.217,0.97,0.874
+0,AdaBoostRegressor,"n_estimators=500, learning_rate=1",-,-,48,139143.148,0.97,0.874
+2,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,-,48,139159.387,0.97,0.874
+44,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,Remove high corr,43,140015.756,0.97,0.872
+92,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,Remove high corr,43,143531.878,0.972,0.866
+91,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,Remove high corr,43,143612.131,0.972,0.866
+46,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,Remove high corr,43,143975.09,0.97,0.865
+45,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,Remove high corr,43,144003.511,0.97,0.865
+93,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,Remove high corr,43,144766.856,0.972,0.864
+87,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,UFS (f-regression),35,145508.015,0.964,0.862
+39,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,UFS (f-regression),35,146496.969,0.96,0.86
+40,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,UFS (f-regression),35,146892.211,0.959,0.86
+38,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,UFS (f-regression),35,148143.338,0.959,0.857
+85,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,UFS (f-regression),35,149025.119,0.964,0.855
+82,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,UFS (f-regression),30,154395.125,0.959,0.845
+86,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,UFS (f-regression),35,154511.81,0.964,0.845
+83,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,UFS (f-regression),30,155169.427,0.959,0.843
+37,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,UFS (f-regression),30,156290.34,0.952,0.841
+35,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,UFS (f-regression),30,156325.175,0.953,0.841
+36,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,UFS (f-regression),30,156397.594,0.954,0.841
+84,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,UFS (f-regression),30,157572.482,0.959,0.838
+78,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,UFS (f-regression),20,158258.927,0.953,0.837
+77,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,UFS (f-regression),20,158295.56,0.953,0.837
+76,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,UFS (f-regression),20,159029.587,0.953,0.835
+80,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,UFS (f-regression),25,159345.292,0.954,0.835
+81,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,UFS (f-regression),25,159680.915,0.954,0.834
+79,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,UFS (f-regression),25,159941.469,0.954,0.834
+29,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,UFS (f-regression),20,161031.9,0.937,0.831
+33,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,UFS (f-regression),25,161990.256,0.938,0.829
+32,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,UFS (f-regression),25,162050.175,0.938,0.829
+31,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,UFS (f-regression),20,162057.768,0.937,0.829
+34,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,UFS (f-regression),25,162472.594,0.936,0.828
+30,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,UFS (f-regression),20,164565.285,0.936,0.824
+70,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,UFS (f-regression),10,172775.541,0.941,0.806
+71,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,UFS (f-regression),10,173157.015,0.94,0.805
+73,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,UFS (f-regression),15,173462.04,0.94,0.804
+26,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,UFS (f-regression),15,173577.446,0.927,0.804
+74,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,UFS (f-regression),15,173807.807,0.94,0.803
+23,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,UFS (f-regression),10,175243.343,0.928,0.8
+75,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,UFS (f-regression),15,175258.184,0.942,0.8
+25,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,UFS (f-regression),10,175793.681,0.927,0.799
+28,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,UFS (f-regression),15,177098.246,0.926,0.796
+27,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,UFS (f-regression),15,177340.145,0.926,0.795
+72,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,UFS (f-regression),10,177961.572,0.941,0.794
+12,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,Variance threshold,25,179525.075,0.935,0.79
+24,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,UFS (f-regression),10,179614.855,0.928,0.79
+15,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,Variance threshold,19,179719.565,0.936,0.79
+17,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,Variance threshold,18,180846.725,0.935,0.787
+8,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,Variance threshold,27,180986.879,0.936,0.787
+11,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,Variance threshold,25,181117.124,0.935,0.787
+18,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,Variance threshold,18,181402.892,0.935,0.786
+16,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,Variance threshold,19,181459.939,0.934,0.786
+19,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,Variance threshold,18,181787.829,0.935,0.785
+10,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,Variance threshold,27,181788.143,0.935,0.785
+5,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,Variance threshold,31,181977.155,0.937,0.784
+6,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,Variance threshold,31,182258.992,0.936,0.784
+14,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,Variance threshold,19,182261.749,0.935,0.784
+13,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,Variance threshold,25,182414.196,0.935,0.783
+9,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,Variance threshold,27,182581.67,0.936,0.783
+66,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,Variance threshold,18,183456.801,0.936,0.781
+53,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,Variance threshold,31,183946.477,0.937,0.78
+68,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,Variance threshold,16,184314.894,0.934,0.779
+7,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,Variance threshold,31,184473.825,0.936,0.779
+57,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,Variance threshold,27,184725.761,0.937,0.778
+59,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,Variance threshold,25,184761.529,0.937,0.778
+62,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,Variance threshold,19,184968.756,0.937,0.777
+58,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,Variance threshold,25,185132.155,0.936,0.777
+65,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,Variance threshold,18,185272.484,0.936,0.777
+63,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,Variance threshold,19,185365.87,0.937,0.776
+64,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,Variance threshold,18,185701.097,0.937,0.776
+61,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,Variance threshold,19,185963.381,0.937,0.775
+67,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,Variance threshold,16,185990.237,0.935,0.775
+69,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,Variance threshold,16,186240.45,0.935,0.774
+52,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,Variance threshold,31,186521.37,0.938,0.774
+60,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,Variance threshold,25,186577.224,0.937,0.773
+54,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",RobustScaler,Variance threshold,31,186612.221,0.937,0.773
+20,AdaBoostRegressor,"n_estimators=500, learning_rate=1",StandardScaler,Variance threshold,16,186638.166,0.932,0.773
+55,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",StandardScaler,Variance threshold,27,186773.639,0.938,0.773
+21,AdaBoostRegressor,"n_estimators=500, learning_rate=1",MinMaxScaler,Variance threshold,16,187082.739,0.931,0.772
+56,AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,Variance threshold,27,188205.568,0.937,0.769
+22,AdaBoostRegressor,"n_estimators=500, learning_rate=1",RobustScaler,Variance threshold,16,188601.394,0.932,0.769

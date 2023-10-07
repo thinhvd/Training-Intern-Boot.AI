@@ -1,0 +1,48 @@
+,Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+0,Sequential,,StandardScaler,UFS (f-regression),40,124272.141,0.912,0.899
+1,Sequential,,RobustScaler,-,47,127116.489,0.914,0.895
+2,Sequential,,-,Remove high corr,42,127116.489,0.914,0.895
+3,Sequential,,StandardScaler,Remove high corr,42,129528.613,0.912,0.891
+4,Sequential,,StandardScaler,-,47,130633.566,0.925,0.889
+5,Sequential,,MinMaxScaler,-,47,130790.496,0.912,0.889
+6,Sequential,,RobustScaler,UFS (f-regression),40,131126.495,0.909,0.888
+7,Sequential,,MinMaxScaler,Remove high corr,42,131798.835,0.91,0.887
+8,Sequential,,RobustScaler,Remove high corr,42,137316.829,0.909,0.877
+9,Sequential,,StandardScaler,UFS (f-regression),35,145540.107,0.873,0.862
+10,Sequential,,MinMaxScaler,UFS (f-regression),35,145616.225,0.869,0.862
+11,Sequential,,RobustScaler,UFS (f-regression),30,151342.419,0.85,0.851
+12,Sequential,,MinMaxScaler,UFS (f-regression),40,151375.976,0.842,0.851
+13,Sequential,,StandardScaler,UFS (f-regression),25,154825.346,0.857,0.844
+14,Sequential,,RobustScaler,UFS (f-regression),35,156898.148,0.862,0.84
+15,Sequential,,StandardScaler,UFS (f-regression),30,159084.391,0.841,0.835
+16,Sequential,,MinMaxScaler,UFS (f-regression),30,165116.056,0.806,0.823
+17,Sequential,,RobustScaler,UFS (f-regression),25,166482.596,0.832,0.82
+18,Sequential,,RobustScaler,UFS (f-regression),20,169456.645,0.813,0.813
+19,Sequential,,StandardScaler,UFS (f-regression),20,173022.464,0.799,0.805
+20,Sequential,,MinMaxScaler,UFS (f-regression),25,177809.358,0.78,0.794
+21,Sequential,,StandardScaler,UFS (f-regression),15,178641.834,0.806,0.792
+22,Sequential,,MinMaxScaler,UFS (f-regression),20,181031.58,0.769,0.787
+23,Sequential,,RobustScaler,Variance threshold,30,182050.695,0.773,0.784
+24,Sequential,,RobustScaler,Variance threshold,26,185543.754,0.767,0.776
+25,Sequential,,MinMaxScaler,Variance threshold,24,185841.745,0.761,0.775
+26,Sequential,,MinMaxScaler,Variance threshold,26,186302.043,0.77,0.774
+27,Sequential,,MinMaxScaler,Variance threshold,30,186339.47,0.77,0.774
+28,Sequential,,StandardScaler,Variance threshold,30,187460.577,0.786,0.771
+29,Sequential,,RobustScaler,Variance threshold,24,187523.153,0.758,0.771
+30,Sequential,,MinMaxScaler,Variance threshold,19,190148.138,0.748,0.765
+31,Sequential,,RobustScaler,Variance threshold,18,190651.321,0.755,0.763
+32,Sequential,,StandardScaler,Variance threshold,24,191307.661,0.757,0.762
+33,Sequential,,StandardScaler,Variance threshold,26,191520.048,0.758,0.761
+34,Sequential,,MinMaxScaler,Variance threshold,18,192562.31,0.739,0.759
+35,Sequential,,StandardScaler,Variance threshold,19,195130.078,0.751,0.752
+36,Sequential,,RobustScaler,Variance threshold,19,195168.617,0.738,0.752
+37,Sequential,,MinMaxScaler,UFS (f-regression),15,199160.754,0.731,0.742
+38,Sequential,,RobustScaler,Variance threshold,16,199976.462,0.706,0.74
+39,Sequential,,MinMaxScaler,Variance threshold,16,200374.807,0.707,0.739
+40,Sequential,,StandardScaler,Variance threshold,18,201008.496,0.737,0.737
+41,Sequential,,-,-,47,202848.426,0.715,0.732
+42,Sequential,,StandardScaler,Variance threshold,16,203300.292,0.712,0.731
+43,Sequential,,RobustScaler,UFS (f-regression),15,203653.391,0.758,0.73
+44,Sequential,,MinMaxScaler,UFS (f-regression),10,208638.602,0.711,0.717
+45,Sequential,,RobustScaler,UFS (f-regression),10,209804.266,0.72,0.714
+46,Sequential,,StandardScaler,UFS (f-regression),10,210478.237,0.723,0.712

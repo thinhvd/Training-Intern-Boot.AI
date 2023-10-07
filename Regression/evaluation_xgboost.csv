@@ -1,0 +1,48 @@
+,Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+0,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",-,-,47,122963.565,0.973,0.902
+1,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,-,47,123549.545,0.973,0.901
+2,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",-,Remove high corr,42,123549.545,0.973,0.901
+3,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,-,47,124678.756,0.974,0.899
+4,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,UFS (f-regression),40,124723.245,0.972,0.899
+5,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,UFS (f-regression),40,124802.277,0.971,0.899
+6,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,UFS (f-regression),40,125586.656,0.971,0.897
+7,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,-,47,125764.621,0.973,0.897
+8,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,Remove high corr,42,130220.902,0.973,0.89
+9,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,UFS (f-regression),35,130237.436,0.969,0.89
+10,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,Remove high corr,42,130372.791,0.973,0.889
+11,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,UFS (f-regression),35,130541.757,0.969,0.889
+12,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,UFS (f-regression),35,130582.314,0.968,0.889
+13,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,Remove high corr,42,130883.96,0.973,0.889
+14,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,UFS (f-regression),30,142550.974,0.957,0.868
+15,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,UFS (f-regression),30,143271.845,0.957,0.866
+16,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,UFS (f-regression),25,143496.621,0.955,0.866
+17,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,UFS (f-regression),25,143617.83,0.954,0.866
+18,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,UFS (f-regression),30,144644.595,0.957,0.864
+19,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,Variance threshold,26,145360.245,0.963,0.862
+20,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,UFS (f-regression),25,145485.312,0.954,0.862
+21,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,Variance threshold,30,145958.169,0.963,0.861
+22,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,Variance threshold,26,147102.533,0.964,0.859
+23,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,Variance threshold,24,147939.311,0.963,0.858
+24,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,Variance threshold,30,147966.454,0.964,0.858
+25,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,UFS (f-regression),20,148010.468,0.953,0.857
+26,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,UFS (f-regression),20,148473.685,0.953,0.857
+27,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,Variance threshold,30,148600.094,0.964,0.856
+28,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,Variance threshold,24,149049.224,0.964,0.855
+29,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,Variance threshold,26,149070.884,0.964,0.855
+30,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,UFS (f-regression),20,149500.759,0.953,0.855
+31,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,Variance threshold,24,150064.102,0.963,0.853
+32,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,Variance threshold,19,150788.43,0.963,0.852
+33,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,Variance threshold,19,151456.105,0.963,0.851
+34,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,Variance threshold,19,152007.652,0.963,0.85
+35,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,Variance threshold,18,152429.026,0.962,0.849
+36,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,Variance threshold,18,152930.317,0.962,0.848
+37,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,Variance threshold,18,154412.956,0.962,0.845
+38,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,Variance threshold,16,156683.007,0.956,0.84
+39,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,Variance threshold,16,156765.323,0.955,0.84
+40,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,UFS (f-regression),15,157813.16,0.943,0.838
+41,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,UFS (f-regression),15,158249.987,0.944,0.837
+42,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,UFS (f-regression),15,158356.945,0.944,0.837
+43,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,Variance threshold,16,160099.131,0.955,0.833
+44,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",MinMaxScaler,UFS (f-regression),10,164184.361,0.939,0.825
+45,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",RobustScaler,UFS (f-regression),10,165495.44,0.938,0.822
+46,XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",StandardScaler,UFS (f-regression),10,166205.0,0.939,0.82

@@ -1,0 +1,48 @@
+,Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+0,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,Remove high corr,42,132889.247,0.959,0.885
+1,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,Remove high corr,42,133080.704,0.959,0.885
+2,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,-,47,133422.125,0.958,0.884
+3,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,UFS (f-regression),40,133481.161,0.957,0.884
+4,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,Remove high corr,42,134024.733,0.96,0.883
+5,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,-,-,47,134429.985,0.96,0.882
+6,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,-,47,134660.073,0.959,0.882
+7,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,-,Remove high corr,42,134660.073,0.959,0.882
+8,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,UFS (f-regression),40,134939.552,0.958,0.881
+9,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,UFS (f-regression),40,134952.44,0.957,0.881
+10,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,-,47,135202.883,0.96,0.881
+11,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,UFS (f-regression),35,148219.781,0.944,0.857
+12,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,UFS (f-regression),35,150812.769,0.94,0.852
+13,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,UFS (f-regression),35,151613.641,0.939,0.85
+14,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,UFS (f-regression),30,160386.707,0.933,0.833
+15,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,Variance threshold,26,161219.065,0.918,0.831
+16,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,Variance threshold,30,162595.336,0.921,0.828
+17,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,UFS (f-regression),30,162610.527,0.931,0.828
+18,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,Variance threshold,24,163590.347,0.917,0.826
+19,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,Variance threshold,30,163908.706,0.928,0.825
+20,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,Variance threshold,26,164040.888,0.92,0.825
+21,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,Variance threshold,18,164617.258,0.915,0.824
+22,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,Variance threshold,26,164660.589,0.925,0.824
+23,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,Variance threshold,19,164879.24,0.929,0.823
+24,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,Variance threshold,24,165209.172,0.923,0.822
+25,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,Variance threshold,19,165282.038,0.927,0.822
+26,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,Variance threshold,24,165306.414,0.919,0.822
+27,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,Variance threshold,19,165345.931,0.927,0.822
+28,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,UFS (f-regression),30,165487.046,0.934,0.822
+29,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,Variance threshold,18,165545.33,0.914,0.822
+30,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,UFS (f-regression),25,166491.314,0.93,0.82
+31,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,Variance threshold,30,167359.172,0.92,0.818
+32,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,UFS (f-regression),25,168745.676,0.926,0.815
+33,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,Variance threshold,18,169777.16,0.915,0.812
+34,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,UFS (f-regression),20,170243.21,0.925,0.811
+35,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,UFS (f-regression),20,170246.585,0.925,0.811
+36,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,UFS (f-regression),25,170400.292,0.923,0.811
+37,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,UFS (f-regression),20,172380.808,0.92,0.807
+38,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,Variance threshold,16,173483.878,0.906,0.804
+39,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,Variance threshold,16,173926.045,0.91,0.803
+40,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,UFS (f-regression),15,174038.116,0.917,0.803
+41,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,Variance threshold,16,178346.023,0.909,0.793
+42,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,UFS (f-regression),15,179067.711,0.916,0.791
+43,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,UFS (f-regression),15,180839.273,0.908,0.787
+44,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,StandardScaler,UFS (f-regression),10,182826.962,0.907,0.782
+45,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,UFS (f-regression),10,183385.592,0.911,0.781
+46,StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,RobustScaler,UFS (f-regression),10,183425.097,0.909,0.781

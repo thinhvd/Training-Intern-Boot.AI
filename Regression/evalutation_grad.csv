@@ -1,0 +1,48 @@
+,Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+0,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",-,-,47,130681.418,0.96,0.889
+1,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,-,47,130699.667,0.96,0.889
+2,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,-,47,130722.344,0.96,0.889
+3,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,-,47,130714.447,0.96,0.889
+4,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",-,Remove high corr,42,130714.447,0.96,0.889
+5,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,Variance threshold,30,148555.857,0.945,0.856
+6,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,Variance threshold,30,148581.602,0.945,0.856
+7,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,Variance threshold,30,148556.096,0.945,0.856
+8,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,Variance threshold,26,151562.826,0.945,0.85
+9,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,Variance threshold,26,151372.249,0.945,0.851
+10,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,Variance threshold,26,151369.843,0.945,0.851
+11,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,Variance threshold,24,147851.365,0.945,0.858
+12,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,Variance threshold,24,147835.081,0.945,0.858
+13,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,Variance threshold,24,147815.361,0.945,0.858
+14,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,Variance threshold,19,154258.773,0.945,0.845
+15,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,Variance threshold,19,153663.632,0.945,0.846
+16,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,Variance threshold,19,153655.947,0.945,0.846
+17,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,Variance threshold,18,154030.922,0.943,0.846
+18,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,Variance threshold,18,153920.675,0.943,0.846
+19,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,Variance threshold,18,153991.874,0.943,0.846
+20,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,Variance threshold,16,159748.337,0.932,0.834
+21,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,Variance threshold,16,160087.636,0.932,0.833
+22,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,Variance threshold,16,159947.487,0.932,0.834
+23,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,UFS (f-regression),10,166255.822,0.915,0.82
+24,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,UFS (f-regression),10,166562.533,0.915,0.819
+25,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,UFS (f-regression),10,166586.979,0.915,0.819
+26,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,UFS (f-regression),15,161167.413,0.92,0.831
+27,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,UFS (f-regression),15,161267.729,0.92,0.831
+28,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,UFS (f-regression),15,161162.769,0.92,0.831
+29,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,UFS (f-regression),20,151893.117,0.931,0.85
+30,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,UFS (f-regression),20,151956.392,0.931,0.85
+31,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,UFS (f-regression),20,151951.242,0.931,0.85
+32,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,UFS (f-regression),25,149301.647,0.933,0.855
+33,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,UFS (f-regression),25,149549.274,0.933,0.854
+34,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,UFS (f-regression),25,149423.366,0.933,0.855
+35,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,UFS (f-regression),30,150205.997,0.937,0.853
+36,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,UFS (f-regression),30,150351.355,0.937,0.853
+37,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,UFS (f-regression),30,150330.28,0.937,0.853
+38,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,UFS (f-regression),35,133019.663,0.954,0.885
+39,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,UFS (f-regression),35,133297.968,0.954,0.884
+40,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,UFS (f-regression),35,133184.391,0.954,0.885
+41,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,UFS (f-regression),40,131917.602,0.958,0.887
+42,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,UFS (f-regression),40,132032.958,0.958,0.887
+43,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,UFS (f-regression),40,131977.485,0.958,0.887
+44,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",StandardScaler,Remove high corr,42,135626.192,0.958,0.88
+45,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",MinMaxScaler,Remove high corr,42,135634.411,0.958,0.88
+46,GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",RobustScaler,Remove high corr,42,135620.94,0.958,0.88

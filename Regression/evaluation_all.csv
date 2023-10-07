@@ -1,0 +1,14 @@
+Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+XGBRegressor,"n_estimators=500, learning_rate=0.08, subsample=0.75, colsample_bytree=1, max_depth=5",-,-,47,122963.565,0.973,0.902
+VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,-,47,123014.121,0.967,0.902
+Sequential,,StandardScaler,UFS (f-regression),40,124272.141,0.912,0.899
+GradientBoostingRegressor,"n_estimators=500, learning_rate=0.2, max_depth=3, min_samples_split=3",-,-,47,130681.418,0.96,0.889
+StackingRegressor,Estimator: XGBoost-GradBoost-AdaBoost; final: RandomForest,MinMaxScaler,Remove high corr,42,132889.247,0.959,0.885
+AdaBoostRegressor,"n_estimators=500, learning_rate=0.2",MinMaxScaler,UFS (f-regression),40,133571.629,0.971,0.884
+LGBMRegressor,"n_estimators=500, learning_rate=0.2, max_depth=5, num_leaves=31",MinMaxScaler,UFS (f-regression),40,133891.586,0.978,0.883
+HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",-,Remove high corr,42,136165.449,0.956,0.879
+RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,-,47,147196.218,0.945,0.859
+MLPRegressor,"hidden_layer_sizes=7, batch_size=128, learning_rate=0.1, max_iter=1000",StandardScaler,UFS (f-regression),40,161125.009,0.821,0.831
+DecisionTreeRegressor,"max_depth=15, min_leaf=10, min_split=20",-,RFECV,11,176202.096,0.894,0.798
+LinearRegression,-,MinMaxScaler,-,47,217361.291,0.712,0.693
+LinearSVR,C = 1000,StandardScaler,-,48,238825.969,0.665,0.629

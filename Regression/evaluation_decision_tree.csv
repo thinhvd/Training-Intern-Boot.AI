@@ -1,0 +1,49 @@
+Unnamed: 0,Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+47,DecisionTreeRegressor,"max_depth=15, min_leaf=10, min_split=20",-,RFECV,11,176202.096,0.894,0.798
+1,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,-,48,184054.538,0.854,0.78
+44,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,Remove high corr,43,184076.997,0.853,0.779
+3,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,-,48,184131.034,0.854,0.779
+4,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",-,Remove high corr,43,184131.034,0.854,0.779
+0,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",-,-,48,184140.846,0.854,0.779
+2,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,-,48,184141.944,0.854,0.779
+45,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,Remove high corr,43,184150.532,0.853,0.779
+46,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,Remove high corr,43,184158.725,0.853,0.779
+41,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,UFS (f-regression),40,184210.764,0.854,0.779
+42,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),40,184276.347,0.854,0.779
+43,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,UFS (f-regression),40,184304.43,0.854,0.779
+37,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,UFS (f-regression),30,195695.076,0.817,0.751
+36,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),30,195701.758,0.817,0.751
+35,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,UFS (f-regression),30,195744.348,0.817,0.751
+38,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,UFS (f-regression),35,199525.912,0.825,0.741
+40,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,UFS (f-regression),35,199554.581,0.825,0.741
+39,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),35,199559.092,0.825,0.741
+31,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,UFS (f-regression),20,202065.345,0.806,0.734
+29,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,UFS (f-regression),20,202071.175,0.806,0.734
+30,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),20,202071.827,0.806,0.734
+34,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,UFS (f-regression),25,202323.554,0.807,0.734
+32,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,UFS (f-regression),25,202329.376,0.807,0.734
+33,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),25,202330.028,0.807,0.734
+25,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,UFS (f-regression),10,205718.889,0.802,0.725
+24,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),10,205745.454,0.802,0.725
+23,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,UFS (f-regression),10,205767.191,0.802,0.724
+28,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,UFS (f-regression),15,205901.492,0.802,0.724
+27,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),15,205932.056,0.802,0.724
+26,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,UFS (f-regression),15,205953.776,0.802,0.724
+18,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,Variance threshold,18,216752.253,0.776,0.694
+19,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,Variance threshold,18,216761.403,0.776,0.694
+17,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,Variance threshold,18,216764.969,0.776,0.694
+15,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,Variance threshold,19,216778.826,0.776,0.694
+16,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,Variance threshold,19,216785.001,0.776,0.694
+14,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,Variance threshold,19,216788.567,0.776,0.694
+12,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,Variance threshold,25,216925.553,0.776,0.694
+10,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,Variance threshold,27,216934.696,0.776,0.694
+9,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,Variance threshold,27,216941.085,0.776,0.694
+8,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,Variance threshold,27,216943.796,0.776,0.694
+5,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,Variance threshold,31,216943.796,0.776,0.694
+11,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,Variance threshold,25,216943.796,0.776,0.694
+6,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,Variance threshold,31,216944.056,0.776,0.694
+13,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,Variance threshold,25,216950.227,0.776,0.694
+7,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,Variance threshold,31,216955.764,0.776,0.694
+22,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",RobustScaler,Variance threshold,16,217853.643,0.767,0.691
+20,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",StandardScaler,Variance threshold,16,217914.063,0.767,0.691
+21,DecisionTreeRegressor,"max_depth=10, min_samples_split=20, min_samples_leaf=15",MinMaxScaler,Variance threshold,16,217926.344,0.767,0.691

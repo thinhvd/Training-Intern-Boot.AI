@@ -1,0 +1,193 @@
+,Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+0,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",-,Remove high corr,42,136165.449,0.956,0.879
+1,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,-,47,136165.449,0.956,0.879
+2,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,-,47,136165.449,0.956,0.879
+3,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,-,47,136165.449,0.956,0.879
+4,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",-,-,47,136165.449,0.956,0.879
+5,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,Remove high corr,42,137770.038,0.955,0.876
+6,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,Remove high corr,42,137770.038,0.955,0.876
+7,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,Remove high corr,42,137770.038,0.955,0.876
+8,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,UFS (f-regression),40,138273.838,0.957,0.876
+9,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,UFS (f-regression),40,138273.838,0.957,0.876
+10,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,UFS (f-regression),40,138319.396,0.957,0.875
+11,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,Remove high corr,42,138593.637,0.964,0.875
+12,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,Remove high corr,42,138593.637,0.964,0.875
+13,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,Remove high corr,42,138593.637,0.964,0.875
+14,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",-,-,47,139738.101,0.953,0.873
+15,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,-,47,139738.101,0.953,0.873
+16,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,-,47,139738.101,0.953,0.873
+17,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,-,47,139738.101,0.953,0.873
+18,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",-,Remove high corr,42,139738.101,0.953,0.873
+19,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,-,47,139785.815,0.944,0.873
+20,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,-,47,139785.815,0.944,0.873
+21,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",-,Remove high corr,42,139785.815,0.944,0.873
+22,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,-,47,139785.815,0.944,0.873
+23,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",-,-,47,139785.815,0.944,0.873
+24,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,UFS (f-regression),40,140311.733,0.954,0.872
+25,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,UFS (f-regression),40,140311.733,0.954,0.872
+26,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,UFS (f-regression),40,140311.733,0.954,0.872
+27,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,UFS (f-regression),40,141174.002,0.919,0.87
+28,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,UFS (f-regression),40,141174.002,0.919,0.87
+29,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,UFS (f-regression),40,141174.002,0.919,0.87
+30,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,Remove high corr,42,141362.853,0.958,0.87
+31,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,Remove high corr,42,141362.853,0.958,0.87
+32,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,Remove high corr,42,141362.853,0.958,0.87
+33,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,UFS (f-regression),40,141385.223,0.934,0.87
+34,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,UFS (f-regression),40,141385.223,0.934,0.87
+35,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,UFS (f-regression),40,141385.223,0.934,0.87
+36,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,Remove high corr,42,143459.804,0.911,0.866
+37,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,Remove high corr,42,143459.804,0.911,0.866
+38,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,Remove high corr,42,143459.804,0.911,0.866
+39,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",-,-,47,143501.569,0.913,0.866
+40,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,-,47,143501.569,0.913,0.866
+41,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,-,47,143501.569,0.913,0.866
+42,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,-,47,143501.569,0.913,0.866
+43,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",-,Remove high corr,42,143501.569,0.913,0.866
+44,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,UFS (f-regression),35,144020.085,0.911,0.865
+45,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,UFS (f-regression),35,144020.085,0.911,0.865
+46,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,UFS (f-regression),35,144020.085,0.911,0.865
+47,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,UFS (f-regression),35,146082.91,0.952,0.861
+48,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,UFS (f-regression),35,146082.91,0.952,0.861
+49,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,UFS (f-regression),35,146082.91,0.952,0.861
+50,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,UFS (f-regression),35,146954.193,0.948,0.859
+51,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,UFS (f-regression),35,146954.193,0.948,0.859
+52,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,UFS (f-regression),35,146954.193,0.948,0.859
+53,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,UFS (f-regression),35,149569.014,0.94,0.854
+54,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,UFS (f-regression),35,149569.014,0.94,0.854
+55,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,UFS (f-regression),35,149569.014,0.94,0.854
+56,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,UFS (f-regression),30,153123.795,0.931,0.847
+57,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,UFS (f-regression),30,153123.795,0.931,0.847
+58,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,UFS (f-regression),30,153123.795,0.931,0.847
+59,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,UFS (f-regression),25,156941.483,0.925,0.84
+60,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,UFS (f-regression),25,156941.483,0.925,0.84
+61,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,UFS (f-regression),25,156941.483,0.925,0.84
+62,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,Variance threshold,30,158279.036,0.952,0.837
+63,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,Variance threshold,30,158279.036,0.952,0.837
+64,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,Variance threshold,30,158279.036,0.952,0.837
+65,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,Variance threshold,24,160527.037,0.953,0.832
+66,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,Variance threshold,24,160527.037,0.953,0.832
+67,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,Variance threshold,24,160527.037,0.953,0.832
+68,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,UFS (f-regression),20,160667.397,0.894,0.832
+69,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,UFS (f-regression),20,160667.397,0.894,0.832
+70,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,UFS (f-regression),20,160667.397,0.894,0.832
+71,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,Variance threshold,26,160825.246,0.946,0.832
+72,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,Variance threshold,26,160825.246,0.946,0.832
+73,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,Variance threshold,26,160825.246,0.946,0.832
+74,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,UFS (f-regression),25,160903.075,0.904,0.832
+75,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,UFS (f-regression),25,160903.075,0.904,0.832
+76,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,UFS (f-regression),25,160903.075,0.904,0.832
+77,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,Variance threshold,18,161012.446,0.946,0.831
+78,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,Variance threshold,18,161012.446,0.946,0.831
+79,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,Variance threshold,18,161012.446,0.946,0.831
+80,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,UFS (f-regression),30,161018.548,0.899,0.831
+81,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,UFS (f-regression),30,161018.548,0.899,0.831
+82,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,UFS (f-regression),30,161018.548,0.899,0.831
+83,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,Variance threshold,26,161179.829,0.933,0.831
+84,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,Variance threshold,26,161179.829,0.933,0.831
+85,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,Variance threshold,26,161179.829,0.933,0.831
+86,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,Variance threshold,30,161179.829,0.933,0.831
+87,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,Variance threshold,30,161179.829,0.933,0.831
+88,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,Variance threshold,30,161179.829,0.933,0.831
+89,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,UFS (f-regression),30,161331.775,0.912,0.831
+90,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,UFS (f-regression),30,161331.775,0.912,0.831
+91,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,UFS (f-regression),30,161331.775,0.912,0.831
+92,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,Variance threshold,19,161401.394,0.937,0.83
+93,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,Variance threshold,19,161401.394,0.937,0.83
+94,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,Variance threshold,19,161401.394,0.937,0.83
+95,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,Variance threshold,24,161537.796,0.89,0.83
+96,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,Variance threshold,24,161537.796,0.89,0.83
+97,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,Variance threshold,24,161537.796,0.89,0.83
+98,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,Variance threshold,19,161584.594,0.89,0.83
+99,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,Variance threshold,19,161584.594,0.89,0.83
+100,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,Variance threshold,19,161584.594,0.89,0.83
+101,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,UFS (f-regression),20,161733.9,0.896,0.83
+102,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,UFS (f-regression),20,161733.9,0.896,0.83
+103,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,UFS (f-regression),20,161733.9,0.896,0.83
+104,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,UFS (f-regression),25,162568.73,0.905,0.828
+105,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,UFS (f-regression),25,162568.73,0.905,0.828
+106,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,UFS (f-regression),25,162568.73,0.905,0.828
+107,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,Variance threshold,24,162682.229,0.926,0.828
+108,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,Variance threshold,24,162682.229,0.926,0.828
+109,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,Variance threshold,24,162682.229,0.926,0.828
+110,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,UFS (f-regression),20,163663.499,0.891,0.826
+111,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,UFS (f-regression),20,163663.499,0.891,0.826
+112,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,UFS (f-regression),20,163663.499,0.891,0.826
+113,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,Variance threshold,30,163819.815,0.876,0.825
+114,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,Variance threshold,30,163819.815,0.876,0.825
+115,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,Variance threshold,30,163819.815,0.876,0.825
+116,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,Variance threshold,26,163819.815,0.876,0.825
+117,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,Variance threshold,26,163819.815,0.876,0.825
+118,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,Variance threshold,26,163819.815,0.876,0.825
+119,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,UFS (f-regression),15,163995.314,0.896,0.825
+120,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,UFS (f-regression),15,163995.314,0.896,0.825
+121,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,UFS (f-regression),15,163995.314,0.896,0.825
+122,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,Variance threshold,18,164837.853,0.938,0.823
+123,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,Variance threshold,18,164837.853,0.938,0.823
+124,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,Variance threshold,18,164837.853,0.938,0.823
+125,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,Variance threshold,24,164991.389,0.93,0.823
+126,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,Variance threshold,24,164991.389,0.93,0.823
+127,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,Variance threshold,24,164991.389,0.93,0.823
+128,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,UFS (f-regression),30,165158.429,0.865,0.822
+129,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,UFS (f-regression),30,165158.429,0.865,0.822
+130,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,UFS (f-regression),30,165158.429,0.865,0.822
+131,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,Variance threshold,26,165374.218,0.942,0.822
+132,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,Variance threshold,26,165374.218,0.942,0.822
+133,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,Variance threshold,26,165374.218,0.942,0.822
+134,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,Variance threshold,30,165374.218,0.942,0.822
+135,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,Variance threshold,30,165374.218,0.942,0.822
+136,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,Variance threshold,30,165374.218,0.942,0.822
+137,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,Variance threshold,19,165512.818,0.933,0.822
+138,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,Variance threshold,19,165512.818,0.933,0.822
+139,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,Variance threshold,19,165512.818,0.933,0.822
+140,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,Variance threshold,19,165808.808,0.951,0.821
+141,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,Variance threshold,19,165808.808,0.951,0.821
+142,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,Variance threshold,19,165808.808,0.951,0.821
+143,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,UFS (f-regression),15,166898.49,0.889,0.819
+144,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,UFS (f-regression),15,166898.49,0.889,0.819
+145,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,UFS (f-regression),15,166898.49,0.889,0.819
+146,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,Variance threshold,16,168351.236,0.914,0.816
+147,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,Variance threshold,16,168351.236,0.914,0.816
+148,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,Variance threshold,16,168351.236,0.914,0.816
+149,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,UFS (f-regression),15,169489.34,0.887,0.813
+150,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,UFS (f-regression),15,169489.34,0.887,0.813
+151,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,UFS (f-regression),15,169489.34,0.887,0.813
+152,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,UFS (f-regression),25,169854.482,0.865,0.812
+153,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,UFS (f-regression),25,169854.482,0.865,0.812
+154,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,UFS (f-regression),25,169854.482,0.865,0.812
+155,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,Variance threshold,18,170239.139,0.942,0.811
+156,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,Variance threshold,18,170239.139,0.942,0.811
+157,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,Variance threshold,18,170239.139,0.942,0.811
+158,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,UFS (f-regression),10,174762.518,0.863,0.801
+159,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,UFS (f-regression),10,174762.518,0.863,0.801
+160,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,UFS (f-regression),10,174762.518,0.863,0.801
+161,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,UFS (f-regression),20,174767.514,0.85,0.801
+162,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,UFS (f-regression),20,174767.514,0.85,0.801
+163,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,UFS (f-regression),20,174767.514,0.85,0.801
+164,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,UFS (f-regression),10,175191.352,0.844,0.8
+165,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,UFS (f-regression),10,175191.352,0.844,0.8
+166,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,UFS (f-regression),10,175191.352,0.844,0.8
+167,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",MinMaxScaler,UFS (f-regression),10,175602.924,0.883,0.799
+168,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",StandardScaler,UFS (f-regression),10,175602.924,0.883,0.799
+169,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=2",RobustScaler,UFS (f-regression),10,175602.924,0.883,0.799
+170,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,UFS (f-regression),10,176313.061,0.862,0.798
+171,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,UFS (f-regression),10,176313.061,0.862,0.798
+172,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,UFS (f-regression),10,176313.061,0.862,0.798
+173,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,Variance threshold,16,177319.438,0.84,0.795
+174,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,Variance threshold,16,177319.438,0.84,0.795
+175,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,Variance threshold,16,177319.438,0.84,0.795
+176,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",RobustScaler,Variance threshold,16,178736.329,0.914,0.792
+177,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",MinMaxScaler,Variance threshold,16,178736.329,0.914,0.792
+178,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15",StandardScaler,Variance threshold,16,178736.329,0.914,0.792
+179,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",RobustScaler,Variance threshold,16,179310.779,0.904,0.791
+180,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",MinMaxScaler,Variance threshold,16,179310.779,0.904,0.791
+181,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=5, min_leaf=15, max_leaf_nodes=15",StandardScaler,Variance threshold,16,179310.779,0.904,0.791
+182,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,UFS (f-regression),15,179713.632,0.833,0.79
+183,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,UFS (f-regression),15,179713.632,0.833,0.79
+184,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,UFS (f-regression),15,179713.632,0.833,0.79
+185,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=1, min_leaf=2",-,-,47,181168.253,0.828,0.786
+186,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=1, min_leaf=2",StandardScaler,-,47,181168.253,0.828,0.786
+187,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=1, min_leaf=2",RobustScaler,-,47,181168.253,0.828,0.786
+188,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=1, min_leaf=2",MinMaxScaler,-,47,181168.253,0.828,0.786
+189,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",StandardScaler,Variance threshold,18,184842.018,0.832,0.778
+190,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",MinMaxScaler,Variance threshold,18,184842.018,0.832,0.778
+191,HistGradientBoostingRegressor,"max_iter=500, learning_rate=0.2, max_depth=2, min_leaf=2",RobustScaler,Variance threshold,18,184842.018,0.832,0.778

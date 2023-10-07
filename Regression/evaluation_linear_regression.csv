@@ -1,0 +1,49 @@
+,Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+3,LinearRegression,-,MinMaxScaler,-,47,217361.291,0.712,0.693
+1,LinearRegression,-,-,-,47,217380.559,0.712,0.692
+4,LinearRegression,-,RobustScaler,-,47,217380.559,0.712,0.692
+5,LinearRegression,-,-,Remove high corr,43,217380.559,0.712,0.692
+2,LinearRegression,-,StandardScaler,-,47,217381.869,0.712,0.692
+43,LinearRegression,-,MinMaxScaler,UFS (f-regression),40,217426.723,0.712,0.692
+42,LinearRegression,-,StandardScaler,UFS (f-regression),40,217429.601,0.712,0.692
+44,LinearRegression,-,RobustScaler,UFS (f-regression),40,217429.633,0.712,0.692
+46,LinearRegression,-,MinMaxScaler,Remove high corr,42,217725.013,0.712,0.691
+47,LinearRegression,-,RobustScaler,Remove high corr,42,217727.015,0.712,0.691
+45,LinearRegression,-,StandardScaler,Remove high corr,42,217730.004,0.712,0.691
+41,LinearRegression,-,RobustScaler,UFS (f-regression),35,218399.58,0.709,0.69
+40,LinearRegression,-,MinMaxScaler,UFS (f-regression),35,218399.58,0.709,0.69
+39,LinearRegression,-,StandardScaler,UFS (f-regression),35,218399.58,0.709,0.69
+38,LinearRegression,-,RobustScaler,UFS (f-regression),30,220463.251,0.702,0.684
+37,LinearRegression,-,MinMaxScaler,UFS (f-regression),30,220463.251,0.702,0.684
+36,LinearRegression,-,StandardScaler,UFS (f-regression),30,220463.251,0.702,0.684
+34,LinearRegression,-,MinMaxScaler,UFS (f-regression),25,226115.442,0.686,0.667
+33,LinearRegression,-,StandardScaler,UFS (f-regression),25,226115.442,0.686,0.667
+35,LinearRegression,-,RobustScaler,UFS (f-regression),25,226115.442,0.686,0.667
+32,LinearRegression,-,RobustScaler,UFS (f-regression),20,231216.945,0.672,0.652
+31,LinearRegression,-,MinMaxScaler,UFS (f-regression),20,231216.945,0.672,0.652
+30,LinearRegression,-,StandardScaler,UFS (f-regression),20,231216.945,0.672,0.652
+27,LinearRegression,-,StandardScaler,UFS (f-regression),15,231828.351,0.666,0.65
+29,LinearRegression,-,RobustScaler,UFS (f-regression),15,231828.351,0.666,0.65
+28,LinearRegression,-,MinMaxScaler,UFS (f-regression),15,231828.351,0.666,0.65
+6,LinearRegression,-,StandardScaler,Variance threshold,30,234094.643,0.648,0.643
+8,LinearRegression,-,RobustScaler,Variance threshold,30,234095.51,0.648,0.643
+7,LinearRegression,-,MinMaxScaler,Variance threshold,30,234095.51,0.648,0.643
+26,LinearRegression,-,RobustScaler,UFS (f-regression),10,234183.778,0.66,0.643
+25,LinearRegression,-,MinMaxScaler,UFS (f-regression),10,234183.778,0.66,0.643
+24,LinearRegression,-,StandardScaler,UFS (f-regression),10,234183.778,0.66,0.643
+14,LinearRegression,-,RobustScaler,Variance threshold,24,234232.13,0.648,0.643
+13,LinearRegression,-,MinMaxScaler,Variance threshold,24,234232.13,0.648,0.643
+12,LinearRegression,-,StandardScaler,Variance threshold,24,234232.13,0.648,0.643
+11,LinearRegression,-,RobustScaler,Variance threshold,26,234285.836,0.648,0.643
+9,LinearRegression,-,StandardScaler,Variance threshold,26,234285.836,0.648,0.643
+10,LinearRegression,-,MinMaxScaler,Variance threshold,26,234285.836,0.648,0.643
+17,LinearRegression,-,RobustScaler,Variance threshold,19,236378.778,0.64,0.636
+16,LinearRegression,-,MinMaxScaler,Variance threshold,19,236378.778,0.64,0.636
+15,LinearRegression,-,StandardScaler,Variance threshold,19,236378.778,0.64,0.636
+20,LinearRegression,-,RobustScaler,Variance threshold,18,236674.749,0.639,0.635
+19,LinearRegression,-,MinMaxScaler,Variance threshold,18,236674.749,0.639,0.635
+18,LinearRegression,-,StandardScaler,Variance threshold,18,236674.749,0.639,0.635
+23,LinearRegression,-,RobustScaler,Variance threshold,16,242863.09,0.616,0.616
+21,LinearRegression,-,StandardScaler,Variance threshold,16,242863.09,0.616,0.616
+22,LinearRegression,-,MinMaxScaler,Variance threshold,16,242863.09,0.616,0.616
+0,Simple Linear Regression,-,-,-,1,273191.543,0.486,0.514

@@ -1,0 +1,142 @@
+,Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+48,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,-,47,147196.218,0.945,0.859
+47,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",-,-,47,147232.675,0.945,0.859
+51,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",-,Remove high corr,42,147234.418,0.945,0.859
+50,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,-,47,147234.418,0.945,0.859
+49,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,-,47,147253.101,0.945,0.859
+88,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),40,147268.963,0.943,0.859
+135,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),40,147277.781,0.944,0.859
+90,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),40,147296.122,0.943,0.859
+137,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),40,147304.928,0.944,0.859
+89,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),40,147310.68,0.943,0.859
+136,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),40,147314.728,0.944,0.859
+95,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,-,47,147365.258,0.945,0.859
+97,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,-,47,147393.092,0.945,0.859
+98,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",-,Remove high corr,42,147393.092,0.945,0.859
+94,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",-,-,47,147405.04,0.945,0.859
+96,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,-,47,147425.287,0.945,0.859
+91,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Remove high corr,42,148325.042,0.944,0.857
+93,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Remove high corr,42,148327.045,0.944,0.857
+92,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Remove high corr,42,148413.183,0.944,0.857
+138,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Remove high corr,42,148462.889,0.944,0.857
+140,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Remove high corr,42,148490.179,0.944,0.856
+139,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Remove high corr,42,148567.97,0.944,0.856
+87,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),35,153656.376,0.933,0.846
+85,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),35,153684.723,0.933,0.846
+86,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),35,153694.238,0.933,0.846
+134,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),35,154256.417,0.933,0.845
+132,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),35,154263.899,0.933,0.845
+133,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),35,154272.446,0.933,0.845
+83,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),30,162723.044,0.924,0.828
+82,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),30,162727.942,0.924,0.828
+84,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),30,162796.926,0.924,0.828
+129,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),30,163528.983,0.925,0.826
+130,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),30,163557.406,0.925,0.826
+131,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),30,163602.645,0.925,0.826
+80,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),25,166699.474,0.92,0.819
+79,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),25,166705.665,0.92,0.819
+81,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),25,166773.683,0.92,0.819
+126,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),25,167445.034,0.921,0.818
+127,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),25,167486.538,0.921,0.817
+128,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),25,167533.375,0.921,0.817
+77,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),20,167919.578,0.919,0.816
+76,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),20,167928.692,0.919,0.816
+78,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),20,167984.821,0.919,0.816
+123,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),20,168548.644,0.919,0.815
+124,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),20,168574.574,0.919,0.815
+125,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),20,168610.4,0.919,0.815
+2,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,-,47,169193.14,0.88,0.814
+41,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,UFS (f-regression),40,170716.625,0.876,0.81
+42,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),40,170751.78,0.876,0.81
+43,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,UFS (f-regression),40,170764.786,0.875,0.81
+1,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,-,47,170998.265,0.875,0.81
+46,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,Remove high corr,42,171519.618,0.876,0.809
+45,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,Remove high corr,42,171614.639,0.874,0.808
+3,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,-,47,171814.216,0.876,0.808
+4,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",-,Remove high corr,42,171814.216,0.876,0.808
+0,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",-,-,47,171973.474,0.875,0.808
+44,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,Remove high corr,42,173106.575,0.873,0.805
+120,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),15,174406.162,0.909,0.802
+121,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),15,174480.957,0.909,0.802
+122,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),15,174491.268,0.909,0.802
+73,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),15,174577.089,0.908,0.802
+74,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),15,174639.372,0.908,0.802
+75,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),15,174671.571,0.908,0.801
+39,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),35,177529.486,0.857,0.795
+40,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,UFS (f-regression),35,177771.663,0.857,0.794
+117,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),10,177857.169,0.905,0.794
+118,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),10,177903.114,0.905,0.794
+119,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),10,177926.161,0.905,0.794
+38,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,UFS (f-regression),35,177975.788,0.857,0.794
+70,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,UFS (f-regression),10,178139.356,0.905,0.793
+71,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,UFS (f-regression),10,178161.86,0.905,0.793
+72,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,UFS (f-regression),10,178206.889,0.905,0.793
+116,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,16,180948.319,0.898,0.787
+69,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,16,181034.865,0.898,0.787
+114,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,16,181104.335,0.898,0.787
+115,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,16,181186.713,0.898,0.786
+67,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,16,181299.729,0.898,0.786
+68,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,16,181398.663,0.898,0.786
+63,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,19,181869.169,0.907,0.785
+61,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,19,181901.956,0.907,0.785
+57,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,26,181987.015,0.907,0.784
+54,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,30,181992.572,0.907,0.784
+62,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,19,182006.766,0.907,0.784
+55,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,26,182025.995,0.907,0.784
+52,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,30,182047.974,0.907,0.784
+110,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,19,182062.022,0.907,0.784
+60,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,24,182068.465,0.907,0.784
+108,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,19,182070.221,0.907,0.784
+56,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,26,182121.694,0.907,0.784
+53,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,30,182127.443,0.907,0.784
+58,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,24,182128.434,0.907,0.784
+109,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,19,182148.002,0.907,0.784
+101,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,30,182149.495,0.908,0.784
+107,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,24,182153.111,0.907,0.784
+105,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,24,182171.324,0.907,0.784
+59,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,24,182198.295,0.907,0.784
+99,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,30,182202.607,0.908,0.784
+104,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,26,182221.903,0.908,0.784
+102,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,26,182222.288,0.908,0.784
+106,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,24,182235.375,0.907,0.784
+100,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,30,182269.458,0.908,0.784
+103,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,26,182301.893,0.908,0.784
+66,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,18,182322.938,0.906,0.784
+64,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,18,182335.314,0.907,0.784
+113,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",RobustScaler,Variance threshold,18,182411.432,0.907,0.783
+111,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",StandardScaler,Variance threshold,18,182426.134,0.907,0.783
+65,RandomForestRegressor,"n_estimators=100, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,18,182435.319,0.906,0.783
+37,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,UFS (f-regression),30,182479.499,0.848,0.783
+112,RandomForestRegressor,"n_estimators=150, max_depth=30, min_samples_split=5, min_samples_leaf=5",MinMaxScaler,Variance threshold,18,182505.35,0.907,0.783
+35,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,UFS (f-regression),30,182670.772,0.848,0.783
+36,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),30,182931.738,0.849,0.782
+30,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),20,188905.151,0.839,0.768
+34,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,UFS (f-regression),25,189058.365,0.838,0.767
+29,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,UFS (f-regression),20,189731.797,0.838,0.766
+33,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),25,190185.3,0.838,0.765
+32,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,UFS (f-regression),25,190352.524,0.838,0.764
+31,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,UFS (f-regression),20,190517.78,0.836,0.764
+28,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,UFS (f-regression),15,193584.423,0.829,0.756
+26,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,UFS (f-regression),15,193829.979,0.83,0.755
+27,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),15,194103.951,0.829,0.755
+25,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,UFS (f-regression),10,194860.414,0.828,0.753
+23,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,UFS (f-regression),10,194993.371,0.827,0.753
+24,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,UFS (f-regression),10,195309.256,0.829,0.752
+14,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,Variance threshold,19,203803.203,0.798,0.73
+22,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,Variance threshold,16,204248.148,0.787,0.728
+6,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,Variance threshold,30,204399.669,0.798,0.728
+21,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,Variance threshold,16,204470.275,0.788,0.728
+11,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,Variance threshold,24,204478.671,0.798,0.728
+8,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,Variance threshold,26,204913.346,0.797,0.727
+20,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,Variance threshold,16,204989.717,0.787,0.727
+13,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,Variance threshold,24,205127.104,0.798,0.726
+7,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,Variance threshold,30,205135.077,0.797,0.726
+9,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,Variance threshold,26,205136.874,0.798,0.726
+15,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,Variance threshold,19,205376.627,0.798,0.725
+17,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,Variance threshold,18,205522.988,0.796,0.725
+10,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,Variance threshold,26,205536.653,0.797,0.725
+19,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,Variance threshold,18,205604.893,0.797,0.725
+5,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",StandardScaler,Variance threshold,30,205683.321,0.796,0.725
+12,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,Variance threshold,24,205766.554,0.798,0.724
+16,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",RobustScaler,Variance threshold,19,205913.832,0.798,0.724
+18,RandomForestRegressor,"n_estimators=100, max_depth=10, min_samples_split=4, min_samples_leaf=15",MinMaxScaler,Variance threshold,18,206369.497,0.797,0.723

@@ -1,0 +1,23 @@
+Model,Details,Scaler,Feature selection,No. features,Precision,Recall,F1-score,AUC
+LogisticRegression,"liblinear, l2, C = 100",StandardScaler,UFS(f_classif),187 (70%),0.093,0.764,0.166,0.729
+LogisticRegression,"liblinear, l2, C = 100",StandardScaler,UFS(f_classif),240 (90%),0.093,0.761,0.166,0.728
+LogisticRegression,"liblinear, l2, C = 100",StandardScaler,UFS(f_classif),213 (80%),0.093,0.761,0.166,0.728
+LogisticRegression,"liblinear, l2, C = 100",StandardScaler,-,267,0.093,0.762,0.166,0.728
+LogisticRegression,"liblinear, l2, C = 100",StandardScaler,UFS(f_classif),227 (85%),0.093,0.76,0.165,0.727
+LogisticRegression,"liblinear, l2, C = 100",MinMaxScaler,UFS(f_classif),187 (70%),0.092,0.76,0.165,0.726
+LogisticRegression,"liblinear, l2, C = 100",MinMaxScaler,-,267,0.092,0.759,0.164,0.726
+LogisticRegression,"liblinear, l2, C = 100",StandardScaler,UFS(f_classif),160 (60%),0.093,0.758,0.165,0.726
+LogisticRegression,"liblinear, l2, C = 100",MinMaxScaler,UFS(f_classif),213 (80%),0.092,0.758,0.164,0.725
+LogisticRegression,"liblinear, l2, C = 100",MinMaxScaler,UFS(f_classif),240 (90%),0.092,0.759,0.164,0.725
+LogisticRegression,"liblinear, l2, C = 100",StandardScaler,UFS(f_classif),133 (50%),0.092,0.756,0.164,0.725
+LogisticRegression,"liblinear, l2, C = 100",MinMaxScaler,UFS(f_classif),227 (85%),0.092,0.758,0.164,0.725
+LogisticRegression,"liblinear, l2, C = 100",MinMaxScaler,UFS(f_classif),160 (60%),0.092,0.756,0.163,0.724
+LogisticRegression,"liblinear, l2, C = 100",MinMaxScaler,UFS(f_classif),133 (50%),0.091,0.755,0.163,0.723
+LogisticRegression,"liblinear, l2, C = 100",RobustScaler,UFS(f_classif),133 (50%),0.081,0.805,0.147,0.714
+LogisticRegression,"liblinear, l2, C = 100",RobustScaler,UFS(f_classif),240 (90%),0.063,0.795,0.117,0.656
+LogisticRegression,"liblinear, l2, C = 100",RobustScaler,-,267,0.062,0.806,0.116,0.653
+LogisticRegression,"liblinear, l2, C = 100",RobustScaler,UFS(f_classif),227 (85%),0.06,0.821,0.113,0.648
+LogisticRegression,"liblinear, l2, C = 100",RobustScaler,UFS(f_classif),213 (80%),0.059,0.825,0.111,0.643
+LogisticRegression,"liblinear, l2, C = 100",RobustScaler,UFS(f_classif),160 (60%),0.059,0.82,0.111,0.643
+LogisticRegression,"liblinear, l2, C = 100",RobustScaler,UFS(f_classif),187 (70%),0.057,0.839,0.107,0.634
+LogisticRegression,"liblinear, l2, C = 100",-,-,267,0.059,0.098,0.073,0.517

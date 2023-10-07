@@ -1,0 +1,67 @@
+Model,Details,Scaler,Feature selection,No. features,Precision,Recall,F1-score,AUC
+SVC,"kernel = rbf, C=10",StandardScaler,UFS(f_classif),133 (50%),0.108,0.688,0.187,0.727
+SVC,"kernel = rbf, C=10",StandardScaler,UFS(f_classif),187 (70%),0.106,0.685,0.184,0.724
+SVC,"kernel = rbf, C=10",StandardScaler,-,267,0.103,0.697,0.18,0.724
+SVC,"kernel = rbf, C=10",StandardScaler,UFS(f_classif),160 (60%),0.107,0.683,0.185,0.724
+SVC,"kernel = rbf, C=10",StandardScaler,UFS(f_classif),227 (85%),0.105,0.686,0.183,0.723
+SVC,"kernel = rbf, C=10",StandardScaler,UFS(f_classif),213 (80%),0.106,0.68,0.184,0.722
+SVC,"kernel = poly, C=10",MinMaxScaler,UFS(f_classif),133 (50%),0.09,0.758,0.161,0.721
+SVC,"kernel = rbf, C=10",StandardScaler,UFS(f_classif),240 (90%),0.104,0.684,0.18,0.721
+SVC,"kernel = rbf, C=10",MinMaxScaler,UFS(f_classif),133 (50%),0.09,0.754,0.161,0.72
+SVC,"kernel = poly, C=10",MinMaxScaler,UFS(f_classif),227 (85%),0.09,0.744,0.16,0.717
+SVC,"kernel = rbf, C=10",MinMaxScaler,UFS(f_classif),227 (85%),0.09,0.745,0.16,0.717
+SVC,"kernel = poly, C=10",MinMaxScaler,UFS(f_classif),187 (70%),0.09,0.744,0.16,0.716
+SVC,"kernel = poly, C=10",MinMaxScaler,UFS(f_classif),240 (90%),0.09,0.743,0.16,0.716
+SVC,"kernel = poly, C=10",MinMaxScaler,UFS(f_classif),213 (80%),0.09,0.743,0.16,0.716
+SVC,"kernel = rbf, C=10",MinMaxScaler,-,267,0.09,0.743,0.16,0.716
+SVC,"kernel = rbf, C=10",MinMaxScaler,UFS(f_classif),213 (80%),0.09,0.744,0.16,0.716
+SVC,"kernel = rbf, C=10",MinMaxScaler,UFS(f_classif),240 (90%),0.09,0.743,0.16,0.716
+SVC,"kernel = poly, C=10",MinMaxScaler,UFS(f_classif),160 (60%),0.089,0.741,0.159,0.715
+SVC,"kernel = rbf, C=10",MinMaxScaler,UFS(f_classif),187 (70%),0.09,0.74,0.16,0.715
+SVC,"kernel = rbf, C=10",MinMaxScaler,UFS(f_classif),160 (60%),0.089,0.74,0.159,0.715
+SVC,"kernel = poly, C=10",MinMaxScaler,-,267,0.089,0.74,0.16,0.715
+SVC,"kernel = poly, C=10",StandardScaler,UFS(f_classif),133 (50%),0.1,0.645,0.173,0.703
+SVC,"kernel = poly, C=10",StandardScaler,UFS(f_classif),160 (60%),0.099,0.642,0.171,0.7
+SVC,"kernel = poly, C=10",StandardScaler,UFS(f_classif),187 (70%),0.096,0.627,0.167,0.692
+SVC,"kernel = poly, C=10",StandardScaler,UFS(f_classif),213 (80%),0.095,0.624,0.165,0.69
+SVC,"kernel = poly, C=10",StandardScaler,UFS(f_classif),227 (85%),0.094,0.626,0.164,0.689
+SVC,"kernel = poly, C=10",StandardScaler,UFS(f_classif),240 (90%),0.093,0.625,0.162,0.687
+SVC,"kernel = poly, C=10",StandardScaler,-,267,0.092,0.623,0.16,0.684
+SVC,"kernel = sigmoid, C=10",StandardScaler,UFS(f_classif),240 (90%),0.077,0.654,0.138,0.667
+SVC,"kernel = sigmoid, C=10",StandardScaler,-,267,0.073,0.666,0.132,0.659
+SVC,"kernel = sigmoid, C=10",StandardScaler,UFS(f_classif),187 (70%),0.072,0.657,0.13,0.655
+SVC,"kernel = sigmoid, C=10",MinMaxScaler,UFS(f_classif),187 (70%),0.065,0.74,0.119,0.65
+SVC,"kernel = sigmoid, C=10",StandardScaler,UFS(f_classif),160 (60%),0.071,0.645,0.127,0.648
+SVC,"kernel = sigmoid, C=10",MinMaxScaler,UFS(f_classif),160 (60%),0.064,0.734,0.117,0.645
+SVC,"kernel = sigmoid, C=10",MinMaxScaler,UFS(f_classif),133 (50%),0.064,0.731,0.117,0.645
+SVC,"kernel = sigmoid, C=10",MinMaxScaler,UFS(f_classif),227 (85%),0.064,0.724,0.118,0.644
+SVC,"kernel = sigmoid, C=10",MinMaxScaler,UFS(f_classif),213 (80%),0.064,0.725,0.118,0.644
+SVC,"kernel = sigmoid, C=10",MinMaxScaler,UFS(f_classif),240 (90%),0.064,0.72,0.117,0.643
+SVC,"kernel = sigmoid, C=10",StandardScaler,UFS(f_classif),227 (85%),0.068,0.649,0.124,0.643
+SVC,"kernel = sigmoid, C=10",MinMaxScaler,-,267,0.064,0.721,0.117,0.643
+SVC,"kernel = sigmoid, C=10",StandardScaler,UFS(f_classif),213 (80%),0.068,0.64,0.124,0.641
+SVC,"kernel = sigmoid, C=10",StandardScaler,UFS(f_classif),133 (50%),0.068,0.632,0.123,0.638
+SVC,"kernel = rbf, C=10",RobustScaler,UFS(f_classif),133 (50%),0.043,0.987,0.082,0.538
+SVC,"kernel = sigmoid, C=10",RobustScaler,UFS(f_classif),133 (50%),0.042,0.971,0.08,0.526
+SVC,"kernel = poly, C=10",RobustScaler,UFS(f_classif),133 (50%),0.041,0.991,0.079,0.524
+SVC,"kernel = sigmoid, C=10",-,-,267,0.04,0.997,0.076,0.502
+SVC,"kernel = rbf, C=10",RobustScaler,-,267,0.04,0.998,0.076,0.502
+SVC,"kernel = rbf, C=10",RobustScaler,UFS(f_classif),240 (90%),0.04,0.998,0.076,0.502
+SVC,"kernel = sigmoid, C=10",RobustScaler,UFS(f_classif),160 (60%),0.04,0.998,0.076,0.502
+SVC,"kernel = rbf, C=10",RobustScaler,UFS(f_classif),227 (85%),0.04,0.998,0.076,0.502
+SVC,"kernel = rbf, C=10",RobustScaler,UFS(f_classif),213 (80%),0.04,0.998,0.076,0.502
+SVC,"kernel = sigmoid, C=10",RobustScaler,UFS(f_classif),187 (70%),0.04,0.998,0.076,0.502
+SVC,"kernel = rbf, C=10",RobustScaler,UFS(f_classif),187 (70%),0.04,0.998,0.076,0.502
+SVC,"kernel = rbf, C=10",RobustScaler,UFS(f_classif),160 (60%),0.04,0.998,0.076,0.502
+SVC,"kernel = sigmoid, C=10",RobustScaler,UFS(f_classif),213 (80%),0.04,0.997,0.076,0.502
+SVC,"kernel = poly, C=10",-,-,267,0.04,0.998,0.076,0.502
+SVC,"kernel = poly, C=10",RobustScaler,-,267,0.04,0.998,0.076,0.502
+SVC,"kernel = sigmoid, C=10",RobustScaler,UFS(f_classif),227 (85%),0.04,0.997,0.076,0.502
+SVC,"kernel = poly, C=10",RobustScaler,UFS(f_classif),240 (90%),0.04,0.998,0.076,0.502
+SVC,"kernel = poly, C=10",RobustScaler,UFS(f_classif),227 (85%),0.04,0.998,0.076,0.502
+SVC,"kernel = sigmoid, C=10",RobustScaler,UFS(f_classif),240 (90%),0.04,0.997,0.076,0.502
+SVC,"kernel = poly, C=10",RobustScaler,UFS(f_classif),213 (80%),0.04,0.998,0.076,0.502
+SVC,"kernel = poly, C=10",RobustScaler,UFS(f_classif),187 (70%),0.04,0.998,0.076,0.502
+SVC,"kernel = sigmoid, C=10",RobustScaler,-,267,0.04,0.997,0.076,0.502
+SVC,"kernel = poly, C=10",RobustScaler,UFS(f_classif),160 (60%),0.04,0.998,0.076,0.502
+SVC,"kernel = rbf, C=10",-,-,267,0.04,0.998,0.076,0.502

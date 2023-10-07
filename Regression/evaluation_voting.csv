@@ -1,0 +1,48 @@
+,Model,Details,Scaler,Feature selection,No. features,RMSE,R-squared (training),R-squared (test)
+0,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,-,47,123014.121,0.967,0.902
+1,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",-,Remove high corr,42,123014.121,0.967,0.902
+2,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",-,-,47,123554.362,0.967,0.901
+3,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,-,47,124162.386,0.967,0.9
+4,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,-,47,124392.185,0.967,0.899
+5,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,UFS (f-regression),40,125969.454,0.965,0.897
+6,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,UFS (f-regression),40,127553.413,0.965,0.894
+7,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,UFS (f-regression),40,127645.522,0.965,0.894
+8,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,Remove high corr,42,127734.093,0.967,0.894
+9,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,Remove high corr,42,129377.299,0.967,0.891
+10,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,Remove high corr,42,129710.532,0.967,0.891
+11,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,UFS (f-regression),35,132487.262,0.962,0.886
+12,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,UFS (f-regression),35,134442.627,0.961,0.882
+13,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,UFS (f-regression),35,135685.48,0.962,0.88
+14,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,UFS (f-regression),30,147292.102,0.949,0.859
+15,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,UFS (f-regression),30,148045.256,0.949,0.857
+16,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,UFS (f-regression),30,148101.391,0.949,0.857
+17,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,UFS (f-regression),25,149536.095,0.945,0.854
+18,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,UFS (f-regression),25,149725.139,0.945,0.854
+19,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,UFS (f-regression),25,150177.581,0.945,0.853
+20,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,UFS (f-regression),20,150442.151,0.943,0.853
+21,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,UFS (f-regression),20,150848.103,0.943,0.852
+22,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,UFS (f-regression),20,151029.586,0.943,0.852
+23,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,Variance threshold,26,151316.209,0.951,0.851
+24,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,Variance threshold,26,151526.274,0.95,0.851
+25,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,Variance threshold,26,151637.79,0.95,0.85
+26,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,Variance threshold,30,152729.022,0.951,0.848
+27,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,Variance threshold,24,153003.485,0.95,0.848
+28,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,Variance threshold,30,153108.699,0.951,0.847
+29,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,Variance threshold,24,153300.053,0.95,0.847
+30,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,Variance threshold,24,153457.267,0.95,0.847
+31,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,Variance threshold,30,153559.652,0.95,0.847
+32,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,Variance threshold,19,154320.552,0.95,0.845
+33,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,Variance threshold,19,154351.723,0.95,0.845
+34,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,Variance threshold,19,154580.336,0.95,0.844
+35,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,Variance threshold,18,155552.383,0.949,0.843
+36,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,Variance threshold,18,155984.472,0.948,0.842
+37,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,Variance threshold,18,156032.792,0.948,0.842
+38,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,UFS (f-regression),15,161027.346,0.933,0.831
+39,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,Variance threshold,16,161030.694,0.942,0.831
+40,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,Variance threshold,16,161079.232,0.942,0.831
+41,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,Variance threshold,16,161600.022,0.942,0.83
+42,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,UFS (f-regression),15,161707.253,0.933,0.83
+43,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,UFS (f-regression),15,162370.302,0.934,0.828
+44,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",MinMaxScaler,UFS (f-regression),10,164343.334,0.929,0.824
+45,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",StandardScaler,UFS (f-regression),10,165006.185,0.93,0.823
+46,VotingRegressor,"('XGBRegressor', 'GradientBoostingRegressor', 'AdaBoostRegressor')",RobustScaler,UFS (f-regression),10,166987.294,0.93,0.819
